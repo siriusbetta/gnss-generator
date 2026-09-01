@@ -1,0 +1,102 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "0d01e3d1-7947-4cb0-9836-0dd150037d0f")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 111.76 54.61) (xy 111.76 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27db6a60-7f17-45e4-8d53-f87105236389")
+	)
+	(wire
+		(pts
+			(xy 44.45 69.85) (xy 109.22 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30d9cf4e-4935-4074-9d30-a1a7c6b2cd0e")
+	)
+	(wire
+		(pts
+			(xy 44.45 54.61) (xy 111.76 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42e72ede-77a1-4944-926b-3979532980ec")
+	)
+	(wire
+		(pts
+			(xy 44.45 62.23) (xy 109.22 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b369747-467c-46fc-973c-e9f3d1b5ac8b")
+	)
+	(bus
+		(pts
+			(xy 44.45 46.99) (xy 107.95 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8b368f8-30f9-416d-9295-c2d73aaebf71")
+	)
+	(label "DAC_CLK"
+		(at 64.77 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "10588837-ea85-44b7-b185-3ef7a4f1cf32")
+	)
+	(label "DAC_D"
+		(at 68.58 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "698b02b8-156a-4a0e-80e9-8920f7b475a5")
+	)
+	(label "DAC_ENABLE"
+		(at 64.77 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e617323-38b3-4fd5-939f-e167f38ad859")
+	)
+	(label "DAC_RESET_N"
+		(at 64.77 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e450e09a-ede4-41c4-a683-706ed19c8e47")
+	)
+)

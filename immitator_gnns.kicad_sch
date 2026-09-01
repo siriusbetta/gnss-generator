@@ -1,0 +1,279 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "f9f7661c-8604-4706-903b-5ef481cc0e7c")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 166.37 20.32)
+		(size 39.37 29.21)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3ac0cc2b-20ab-46c2-9578-cd4ca4c8ea24")
+		(property "Sheetname" "04_DAC_IF"
+			(at 166.37 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "dac_if.kicad_sch"
+			(at 166.37 50.1146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "immitator_gnns"
+				(path "/f9f7661c-8604-4706-903b-5ef481cc0e7c"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 21.59 20.32)
+		(size 44.45 29.21)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "484d0cbc-1cf8-4d81-817a-0e9f7d2e824b")
+		(property "Sheetname" "01-FPGA"
+			(at 21.59 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fpga_tang_primer_25k.kicad_sch"
+			(at 21.59 50.1146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "immitator_gnns"
+				(path "/f9f7661c-8604-4706-903b-5ef481cc0e7c"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 71.12)
+		(size 39.37 30.48)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6a162584-26e5-4e74-b2d0-6eaed76cf0ca")
+		(property "Sheetname" "07_CONNECTORS_DEBUG"
+			(at 139.7 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connectors_debug.kicad_sch"
+			(at 139.7 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "immitator_gnns"
+				(path "/f9f7661c-8604-4706-903b-5ef481cc0e7c"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 82.55 69.85)
+		(size 40.64 31.75)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7f4e637e-9827-479f-b21c-fa4923a11a8e")
+		(property "Sheetname" "06_POWER"
+			(at 82.55 69.1384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 82.55 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "immitator_gnns"
+				(path "/f9f7661c-8604-4706-903b-5ef481cc0e7c"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 118.11 20.32)
+		(size 44.45 29.21)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "809e49b2-6723-47b0-b18c-4dbc3256776a")
+		(property "Sheetname" "03_CLOCK_SYNK"
+			(at 118.11 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "clock_synk.kicad_sch"
+			(at 118.11 50.1146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "immitator_gnns"
+				(path "/f9f7661c-8604-4706-903b-5ef481cc0e7c"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 72.39 20.32)
+		(size 38.1 29.21)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e6a9553c-c890-4b15-a7b0-5f1cacbf46e1")
+		(property "Sheetname" "02_MCU"
+			(at 72.39 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 72.39 50.1146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "immitator_gnns"
+				(path "/f9f7661c-8604-4706-903b-5ef481cc0e7c"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 210.82 20.32)
+		(size 38.1 29.21)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f0be3a67-3046-4613-a295-c08db1f57274")
+		(property "Sheetname" "05_RF_GPS_L1"
+			(at 210.82 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gps_l1.kicad_sch"
+			(at 210.82 50.1146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "immitator_gnns"
+				(path "/f9f7661c-8604-4706-903b-5ef481cc0e7c"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

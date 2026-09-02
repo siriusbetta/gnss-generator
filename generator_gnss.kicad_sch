@@ -36,7 +36,7 @@
 			)
 		)
 		(instances
-			(project "immitator_gnns"
+			(project "generator_gnss"
 				(path "/f9f7661c-8604-4706-903b-5ef481cc0e7c"
 					(page "5")
 				)
@@ -74,7 +74,7 @@
 			)
 		)
 		(instances
-			(project "immitator_gnns"
+			(project "generator_gnss"
 				(path "/f9f7661c-8604-4706-903b-5ef481cc0e7c"
 					(page "2")
 				)
@@ -112,7 +112,7 @@
 			)
 		)
 		(instances
-			(project "immitator_gnns"
+			(project "generator_gnss"
 				(path "/f9f7661c-8604-4706-903b-5ef481cc0e7c"
 					(page "8")
 				)
@@ -150,7 +150,7 @@
 			)
 		)
 		(instances
-			(project "immitator_gnns"
+			(project "generator_gnss"
 				(path "/f9f7661c-8604-4706-903b-5ef481cc0e7c"
 					(page "7")
 				)
@@ -169,7 +169,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "809e49b2-6723-47b0-b18c-4dbc3256776a")
-		(property "Sheetname" "03_CLOCK_SYNK"
+		(property "Sheetname" "03_CLOCK_SYNC"
 			(at 118.11 19.6084 0)
 			(effects
 				(font
@@ -178,7 +178,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "clock_synk.kicad_sch"
+		(property "Sheetfile" "clock_sync.kicad_sch"
 			(at 118.11 50.1146 0)
 			(effects
 				(font
@@ -188,7 +188,7 @@
 			)
 		)
 		(instances
-			(project "immitator_gnns"
+			(project "generator_gnss"
 				(path "/f9f7661c-8604-4706-903b-5ef481cc0e7c"
 					(page "4")
 				)
@@ -226,7 +226,7 @@
 			)
 		)
 		(instances
-			(project "immitator_gnns"
+			(project "generator_gnss"
 				(path "/f9f7661c-8604-4706-903b-5ef481cc0e7c"
 					(page "3")
 				)
@@ -264,7 +264,7 @@
 			)
 		)
 		(instances
-			(project "immitator_gnns"
+			(project "generator_gnss"
 				(path "/f9f7661c-8604-4706-903b-5ef481cc0e7c"
 					(page "6")
 				)

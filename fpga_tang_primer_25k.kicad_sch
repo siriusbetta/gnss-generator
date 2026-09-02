@@ -2921,7 +2921,7 @@
 			(uuid "47f3ac9f-308b-4319-95fb-c9acb8ace853")
 		)
 		(instances
-			(project "immitator_gnns"
+			(project "generator_gnss"
 				(path "/f9f7661c-8604-4706-903b-5ef481cc0e7c/484d0cbc-1cf8-4d81-817a-0e9f7d2e824b"
 					(reference "U1")
 					(unit 1)

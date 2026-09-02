@@ -239,7 +239,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "immitator_gnns.kicad_pro",
+    "filename": "generator_gnss.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -408,7 +408,7 @@
     ],
     [
       "809e49b2-6723-47b0-b18c-4dbc3256776a",
-      "03_CLOCK_SYNK"
+      "03_CLOCK_SYNC"
     ],
     [
       "3ac0cc2b-20ab-46c2-9578-cd4ca4c8ea24",

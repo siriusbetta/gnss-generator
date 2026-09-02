@@ -5560,7 +5560,7 @@
 			(uuid "a9baeac6-a6f2-469f-bbd7-1d6bdbaa0446")
 		)
 		(instances
-			(project "immitator_gnns"
+			(project "generator_gnss"
 				(path "/f9f7661c-8604-4706-903b-5ef481cc0e7c/e6a9553c-c890-4b15-a7b0-5f1cacbf46e1"
 					(reference "C6")
 					(unit 1)
@@ -5630,7 +5630,7 @@
 			(uuid "f0d3e877-1074-4a16-b31a-afa6773384f5")
 		)
 		(instances
-			(project "immitator_gnns"
+			(project "generator_gnss"
 				(path "/f9f7661c-8604-4706-903b-5ef481cc0e7c/e6a9553c-c890-4b15-a7b0-5f1cacbf46e1"
 					(reference "R4")
 					(unit 1)
@@ -5700,7 +5700,7 @@
 			(uuid "e3cbcc40-0b7a-4877-96b6-c66a323331f8")
 		)
 		(instances
-			(project "immitator_gnns"
+			(project "generator_gnss"
 				(path "/f9f7661c-8604-4706-903b-5ef481cc0e7c/e6a9553c-c890-4b15-a7b0-5f1cacbf46e1"
 					(reference "R3")
 					(unit 1)
@@ -5766,7 +5766,7 @@
 			(uuid "84bc5712-1921-4543-8bad-2abeda15af2d")
 		)
 		(instances
-			(project "immitator_gnns"
+			(project "generator_gnss"
 				(path "/f9f7661c-8604-4706-903b-5ef481cc0e7c/e6a9553c-c890-4b15-a7b0-5f1cacbf46e1"
 					(reference "#PWR07")
 					(unit 1)
@@ -5836,7 +5836,7 @@
 			(uuid "6947a09f-9b52-4203-aea5-7c1dd247299c")
 		)
 		(instances
-			(project "immitator_gnns"
+			(project "generator_gnss"
 				(path "/f9f7661c-8604-4706-903b-5ef481cc0e7c/e6a9553c-c890-4b15-a7b0-5f1cacbf46e1"
 					(reference "C3")
 					(unit 1)
@@ -5902,7 +5902,7 @@
 			(uuid "bb26cd70-bec5-400f-87bd-48eb450ea0cf")
 		)
 		(instances
-			(project "immitator_gnns"
+			(project "generator_gnss"
 				(path "/f9f7661c-8604-4706-903b-5ef481cc0e7c/e6a9553c-c890-4b15-a7b0-5f1cacbf46e1"
 					(reference "#PWR01")
 					(unit 1)
@@ -5973,7 +5973,7 @@
 			(uuid "cb530e00-971a-44f1-acde-92aef55ff1a3")
 		)
 		(instances
-			(project "immitator_gnns"
+			(project "generator_gnss"
 				(path "/f9f7661c-8604-4706-903b-5ef481cc0e7c/e6a9553c-c890-4b15-a7b0-5f1cacbf46e1"
 					(reference "SW1")
 					(unit 1)
@@ -6039,7 +6039,7 @@
 			(uuid "4667ba8d-bb14-4c6e-9a52-ca8b9ffe920e")
 		)
 		(instances
-			(project "immitator_gnns"
+			(project "generator_gnss"
 				(path "/f9f7661c-8604-4706-903b-5ef481cc0e7c/e6a9553c-c890-4b15-a7b0-5f1cacbf46e1"
 					(reference "#PWR03")
 					(unit 1)
@@ -6248,7 +6248,7 @@
 			(uuid "cb4a0c4c-7f62-43f1-94d6-fefecc72fbc7")
 		)
 		(instances
-			(project "immitator_gnns"
+			(project "generator_gnss"
 				(path "/f9f7661c-8604-4706-903b-5ef481cc0e7c/e6a9553c-c890-4b15-a7b0-5f1cacbf46e1"
 					(reference "U4")
 					(unit 1)
@@ -6320,7 +6320,7 @@
 			(uuid "266a8d44-6760-47da-be6b-1508d623f88e")
 		)
 		(instances
-			(project "immitator_gnns"
+			(project "generator_gnss"
 				(path "/f9f7661c-8604-4706-903b-5ef481cc0e7c/e6a9553c-c890-4b15-a7b0-5f1cacbf46e1"
 					(reference "J3")
 					(unit 1)
@@ -6385,7 +6385,7 @@
 			(uuid "381d2ac1-c076-45ad-b346-1d63eeb1ffa8")
 		)
 		(instances
-			(project "immitator_gnns"
+			(project "generator_gnss"
 				(path "/f9f7661c-8604-4706-903b-5ef481cc0e7c/e6a9553c-c890-4b15-a7b0-5f1cacbf46e1"
 					(reference "J4")
 					(unit 1)
@@ -6455,7 +6455,7 @@
 			(uuid "84becec7-527d-4acb-8f37-fb16858125bf")
 		)
 		(instances
-			(project "immitator_gnns"
+			(project "generator_gnss"
 				(path "/f9f7661c-8604-4706-903b-5ef481cc0e7c/e6a9553c-c890-4b15-a7b0-5f1cacbf46e1"
 					(reference "C5")
 					(unit 1)
@@ -6521,7 +6521,7 @@
 			(uuid "18ff00f2-251e-47dd-a636-dfa9f5cb1371")
 		)
 		(instances
-			(project "immitator_gnns"
+			(project "generator_gnss"
 				(path "/f9f7661c-8604-4706-903b-5ef481cc0e7c/e6a9553c-c890-4b15-a7b0-5f1cacbf46e1"
 					(reference "#PWR02")
 					(unit 1)
@@ -6628,7 +6628,7 @@
 			(uuid "f21d19c3-e157-47d4-86f1-13fb26c3bf9f")
 		)
 		(instances
-			(project "immitator_gnns"
+			(project "generator_gnss"
 				(path "/f9f7661c-8604-4706-903b-5ef481cc0e7c/e6a9553c-c890-4b15-a7b0-5f1cacbf46e1"
 					(reference "J1")
 					(unit 1)
@@ -6698,7 +6698,7 @@
 			(uuid "942df5af-0dc8-49fc-8f2a-83ff2377be47")
 		)
 		(instances
-			(project "immitator_gnns"
+			(project "generator_gnss"
 				(path "/f9f7661c-8604-4706-903b-5ef481cc0e7c/e6a9553c-c890-4b15-a7b0-5f1cacbf46e1"
 					(reference "R2")
 					(unit 1)
@@ -6739,6 +6739,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" "~"
@@ -6775,7 +6776,7 @@
 			(uuid "39aa946c-b957-4ec1-b1f7-403c62bd3f8f")
 		)
 		(instances
-			(project "immitator_gnns"
+			(project "generator_gnss"
 				(path "/f9f7661c-8604-4706-903b-5ef481cc0e7c/e6a9553c-c890-4b15-a7b0-5f1cacbf46e1"
 					(reference "J2")
 					(unit 1)
@@ -6841,7 +6842,7 @@
 			(uuid "b405a9fe-b3ee-4e90-a9fe-f631d655613f")
 		)
 		(instances
-			(project "immitator_gnns"
+			(project "generator_gnss"
 				(path "/f9f7661c-8604-4706-903b-5ef481cc0e7c/e6a9553c-c890-4b15-a7b0-5f1cacbf46e1"
 					(reference "#PWR04")
 					(unit 1)
@@ -6907,7 +6908,7 @@
 			(uuid "dedc9267-409a-466d-8e76-16b573e9c5b3")
 		)
 		(instances
-			(project "immitator_gnns"
+			(project "generator_gnss"
 				(path "/f9f7661c-8604-4706-903b-5ef481cc0e7c/e6a9553c-c890-4b15-a7b0-5f1cacbf46e1"
 					(reference "#PWR06")
 					(unit 1)
@@ -6973,7 +6974,7 @@
 			(uuid "0b0a716e-81cb-4ead-ba7b-1268d1088129")
 		)
 		(instances
-			(project "immitator_gnns"
+			(project "generator_gnss"
 				(path "/f9f7661c-8604-4706-903b-5ef481cc0e7c/e6a9553c-c890-4b15-a7b0-5f1cacbf46e1"
 					(reference "#PWR05")
 					(unit 1)
@@ -7043,7 +7044,7 @@
 			(uuid "976e6da0-6650-46a2-ae96-60ffcc5c871e")
 		)
 		(instances
-			(project "immitator_gnns"
+			(project "generator_gnss"
 				(path "/f9f7661c-8604-4706-903b-5ef481cc0e7c/e6a9553c-c890-4b15-a7b0-5f1cacbf46e1"
 					(reference "C2")
 					(unit 1)
@@ -7109,7 +7110,7 @@
 			(uuid "3b0a39de-e6da-4b7e-afdf-7556c4539b39")
 		)
 		(instances
-			(project "immitator_gnns"
+			(project "generator_gnss"
 				(path "/f9f7661c-8604-4706-903b-5ef481cc0e7c/e6a9553c-c890-4b15-a7b0-5f1cacbf46e1"
 					(reference "#PWR08")
 					(unit 1)
@@ -7179,7 +7180,7 @@
 			(uuid "1ca75a5c-39a2-4f85-86f0-562026c7f34c")
 		)
 		(instances
-			(project "immitator_gnns"
+			(project "generator_gnss"
 				(path "/f9f7661c-8604-4706-903b-5ef481cc0e7c/e6a9553c-c890-4b15-a7b0-5f1cacbf46e1"
 					(reference "R1")
 					(unit 1)
@@ -7249,7 +7250,7 @@
 			(uuid "551a0cad-360a-4167-bcae-e50b4f31cc9c")
 		)
 		(instances
-			(project "immitator_gnns"
+			(project "generator_gnss"
 				(path "/f9f7661c-8604-4706-903b-5ef481cc0e7c/e6a9553c-c890-4b15-a7b0-5f1cacbf46e1"
 					(reference "C1")
 					(unit 1)
@@ -7318,7 +7319,7 @@
 			(uuid "b8cb17be-f56c-4b0f-9f18-08a56cbc746b")
 		)
 		(instances
-			(project "immitator_gnns"
+			(project "generator_gnss"
 				(path "/f9f7661c-8604-4706-903b-5ef481cc0e7c/e6a9553c-c890-4b15-a7b0-5f1cacbf46e1"
 					(reference "C4")
 					(unit 1)
@@ -7390,7 +7391,7 @@
 			(uuid "cb5fb8ba-c2ca-4c58-8d59-f7e89dd55c9e")
 		)
 		(instances
-			(project "immitator_gnns"
+			(project "generator_gnss"
 				(path "/f9f7661c-8604-4706-903b-5ef481cc0e7c/e6a9553c-c890-4b15-a7b0-5f1cacbf46e1"
 					(reference "U3")
 					(unit 1)
@@ -7457,7 +7458,7 @@
 			(uuid "ace287af-820d-4bf8-92c9-c5697c7cb21d")
 		)
 		(instances
-			(project "immitator_gnns"
+			(project "generator_gnss"
 				(path "/f9f7661c-8604-4706-903b-5ef481cc0e7c/e6a9553c-c890-4b15-a7b0-5f1cacbf46e1"
 					(reference "FB1")
 					(unit 1)
@@ -7523,7 +7524,7 @@
 			(uuid "00e168e7-7354-4b92-aa5b-ffe56c622654")
 		)
 		(instances
-			(project "immitator_gnns"
+			(project "generator_gnss"
 				(path "/f9f7661c-8604-4706-903b-5ef481cc0e7c/e6a9553c-c890-4b15-a7b0-5f1cacbf46e1"
 					(reference "#PWR09")
 					(unit 1)

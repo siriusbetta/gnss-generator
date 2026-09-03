@@ -1,24 +1,90 @@
 (kicad_sch
-	(version 20231120)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "10.0")
 	(uuid "f9f7661c-8604-4706-903b-5ef481cc0e7c")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 55.88 90.17) (xy 152.4 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1edba07a-11ec-4684-8fd5-5cae4fb43adc")
+	)
+	(wire
+		(pts
+			(xy 55.88 93.98) (xy 152.4 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "483d860c-7945-46e3-af6a-897c2c1b50fc")
+	)
+	(wire
+		(pts
+			(xy 55.88 86.36) (xy 152.4 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62c60a53-98be-40d8-ac0b-31930ae3ffa1")
+	)
+	(wire
+		(pts
+			(xy 55.88 82.55) (xy 152.4 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d51e309-d080-4eda-b4e5-9e61c2fbf775")
+	)
+	(wire
+		(pts
+			(xy 55.88 97.79) (xy 152.4 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb46ce0b-c9a7-475a-81e9-bde8fb174725")
+	)
+	(bus
+		(pts
+			(xy 55.88 78.74) (xy 152.4 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9eaf198-4d0b-4119-bdfc-d828bdd2d5a4")
+	)
 	(sheet
-		(at 166.37 20.32)
-		(size 39.37 29.21)
+		(at 152.4 74.93)
+		(size 40.64 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "3ac0cc2b-20ab-46c2-9578-cd4ca4c8ea24")
 		(property "Sheetname" "04_DAC_IF"
-			(at 166.37 19.6084 0)
+			(at 152.4 74.2184 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27,12 +93,74 @@
 			)
 		)
 		(property "Sheetfile" "dac_if.kicad_sch"
-			(at 166.37 50.1146 0)
+			(at 152.4 104.7246 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "DAC_D[0..13]" input
+			(at 152.4 78.74 180)
+			(uuid "e2595c0b-16a5-4666-951e-50cfc1f765cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DAC_CLK" input
+			(at 152.4 82.55 180)
+			(uuid "aafd9976-6c1e-4ed1-8a18-1df362d81c2f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DAC_SCLK" input
+			(at 152.4 86.36 180)
+			(uuid "fb3de18f-73b5-4f60-b0d6-06659f37b11a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DAC_SDIO" bidirectional
+			(at 152.4 90.17 180)
+			(uuid "bb321100-3e7e-4eaf-b662-c4ba12ffd86a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DAC_CS_N" input
+			(at 152.4 93.98 180)
+			(uuid "a44c8643-8e66-46ac-9e46-77126ddc94eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DAC_MODE_RESET" input
+			(at 152.4 97.79 180)
+			(uuid "e7c8d915-af0c-48c6-a66a-ac1f9aa671f3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -44,19 +172,25 @@
 		)
 	)
 	(sheet
-		(at 21.59 20.32)
-		(size 44.45 29.21)
+		(at 20.32 74.93)
+		(size 35.56 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "484d0cbc-1cf8-4d81-817a-0e9f7d2e824b")
 		(property "Sheetname" "01-FPGA"
-			(at 21.59 19.6084 0)
+			(at 20.32 74.2184 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65,12 +199,74 @@
 			)
 		)
 		(property "Sheetfile" "fpga_tang_primer_25k.kicad_sch"
-			(at 21.59 50.1146 0)
+			(at 20.32 104.7246 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "DAC_D[0..13]" output
+			(at 55.88 78.74 0)
+			(uuid "9f1ad03a-35ef-459c-8593-b3a8536640db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DAC_CLK" output
+			(at 55.88 82.55 0)
+			(uuid "d10a48fd-b5b4-4dc1-9628-ea43aa260cc7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DAC_SCLK" output
+			(at 55.88 86.36 0)
+			(uuid "914bf221-5a57-484c-8c3c-403e2255007e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DAC_SDIO" bidirectional
+			(at 55.88 90.17 0)
+			(uuid "fa40271b-c1e9-477e-91f6-1db47e0f1062")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DAC_CS_N" output
+			(at 55.88 93.98 0)
+			(uuid "45fa4669-99fc-442f-89b8-f0a02a41b4e7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DAC_MODE_RESET" output
+			(at 55.88 97.79 0)
+			(uuid "d9c26672-0680-44b8-8b77-b44bb2c981ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -82,19 +278,25 @@
 		)
 	)
 	(sheet
-		(at 139.7 71.12)
+		(at 213.36 19.05)
 		(size 39.37 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "6a162584-26e5-4e74-b2d0-6eaed76cf0ca")
 		(property "Sheetname" "07_CONNECTORS_DEBUG"
-			(at 139.7 70.4084 0)
+			(at 213.36 18.3384 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -103,7 +305,9 @@
 			)
 		)
 		(property "Sheetfile" "connectors_debug.kicad_sch"
-			(at 139.7 102.1846 0)
+			(at 213.36 50.1146 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -120,19 +324,25 @@
 		)
 	)
 	(sheet
-		(at 82.55 69.85)
+		(at 162.56 19.05)
 		(size 40.64 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "7f4e637e-9827-479f-b21c-fa4923a11a8e")
 		(property "Sheetname" "06_POWER"
-			(at 82.55 69.1384 0)
+			(at 162.56 18.3384 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -141,7 +351,9 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 82.55 102.1846 0)
+			(at 162.56 51.3846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -158,19 +370,25 @@
 		)
 	)
 	(sheet
-		(at 118.11 20.32)
+		(at 66.04 19.05)
 		(size 44.45 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "809e49b2-6723-47b0-b18c-4dbc3256776a")
 		(property "Sheetname" "03_CLOCK_SYNC"
-			(at 118.11 19.6084 0)
+			(at 66.04 18.3384 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -179,7 +397,9 @@
 			)
 		)
 		(property "Sheetfile" "clock_sync.kicad_sch"
-			(at 118.11 50.1146 0)
+			(at 66.04 48.8446 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -196,19 +416,25 @@
 		)
 	)
 	(sheet
-		(at 72.39 20.32)
+		(at 20.32 19.05)
 		(size 38.1 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "e6a9553c-c890-4b15-a7b0-5f1cacbf46e1")
 		(property "Sheetname" "02_MCU"
-			(at 72.39 19.6084 0)
+			(at 20.32 18.3384 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -217,7 +443,9 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 72.39 50.1146 0)
+			(at 20.32 48.8446 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -234,19 +462,25 @@
 		)
 	)
 	(sheet
-		(at 210.82 20.32)
+		(at 116.84 19.05)
 		(size 38.1 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "f0be3a67-3046-4613-a295-c08db1f57274")
 		(property "Sheetname" "05_RF_GPS_L1"
-			(at 210.82 19.6084 0)
+			(at 116.84 18.3384 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -255,7 +489,9 @@
 			)
 		)
 		(property "Sheetfile" "gps_l1.kicad_sch"
-			(at 210.82 50.1146 0)
+			(at 116.84 48.8446 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -276,4 +512,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

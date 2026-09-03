@@ -27,3 +27,6 @@ _autosave-*
 Thumbs.db
 *.swp
 *.kicad_prl
+*auto_saved_files*
+*sym-lib-table*
+fp-lib-table

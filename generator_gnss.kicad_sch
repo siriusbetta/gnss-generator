@@ -37,6 +37,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 77.47) (xy 222.25 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71db2eb1-61cd-46c6-85ba-856d83864a44")
+	)
+	(wire
+		(pts
 			(xy 55.88 82.55) (xy 152.4 82.55)
 		)
 		(stroke
@@ -161,6 +171,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "DAC_IF_FILT" output
+			(at 193.04 77.47 0)
+			(uuid "391e01d2-8d4f-47b7-aa00-263ed6a567ce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -462,7 +482,7 @@
 		)
 	)
 	(sheet
-		(at 116.84 19.05)
+		(at 222.25 74.93)
 		(size 38.1 29.21)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -478,7 +498,7 @@
 		)
 		(uuid "f0be3a67-3046-4613-a295-c08db1f57274")
 		(property "Sheetname" "05_RF_GPS_L1"
-			(at 116.84 18.3384 0)
+			(at 222.25 74.2184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -489,7 +509,7 @@
 			)
 		)
 		(property "Sheetfile" "gps_l1.kicad_sch"
-			(at 116.84 48.8446 0)
+			(at 222.25 104.7246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -497,6 +517,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "DAC_IF_FILT" input
+			(at 222.25 77.47 180)
+			(uuid "6cc7f506-2568-415c-89c7-43e954256686")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

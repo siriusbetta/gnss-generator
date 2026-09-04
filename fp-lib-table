@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Tang_Primer_25K") (type "KiCad") (uri "C:/work/Documents/gowin/Tang_Primer_25K_KiCad_Library/Tang_Primer_25K.pretty") (options "") (descr ""))
+	(lib (name "gnss_lib") (type "KiCad") (uri "${KIPRJMOD}/gnss_lib.pretty") (options "") (descr ""))
+)

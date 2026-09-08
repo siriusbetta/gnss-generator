@@ -2793,6 +2793,16 @@
 	)
 	(wire
 		(pts
+			(xy 16.51 17.78) (xy 26.67 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00f03a43-a34f-42a9-b136-7eb7fba5a3d9")
+	)
+	(wire
+		(pts
 			(xy 41.91 105.41) (xy 58.42 105.41)
 		)
 		(stroke
@@ -4191,6 +4201,16 @@
 		)
 		(uuid "cf882219-0bae-4ac2-a588-8e4f738caedd")
 	)
+	(label "REF_10M"
+		(at 16.51 17.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d2cf6ef8-c999-42eb-af7d-f9dc06965775")
+	)
 	(label "GND"
 		(at 43.18 67.31 0)
 		(effects
@@ -4361,6 +4381,17 @@
 			(justify left bottom)
 		)
 		(uuid "0a71ce55-a750-4743-ba8d-79d268d80eff")
+	)
+	(hierarchical_label "REF_10M"
+		(shape input)
+		(at 26.67 17.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1bb185b8-612b-4015-af97-623400529f58")
 	)
 	(hierarchical_label "DAC_D[0..13]"
 		(shape output)

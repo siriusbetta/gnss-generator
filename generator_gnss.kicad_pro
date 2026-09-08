@@ -404,6 +404,30 @@
           "label": "MPN",
           "name": "MPN",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Other",
+          "name": "Other",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Voltage",
+          "name": "Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Tolerance",
+          "name": "Tolerance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Dialectric",
+          "name": "Dialectric",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -461,7 +485,7 @@
         "uuid": "f9f7661c-8604-4706-903b-5ef481cc0e7c"
       }
     ],
-    "used_designators": "TR1-2,L5-8,#PWR13,C20-27,R11-13,TP1,U2,U5",
+    "used_designators": "TR1-3,L5-8,#PWR8-9,#PWR13-14,C20-51,J5,R11-34,TP1,U2,U5-6,Y1",
     "variants": []
   },
   "sheets": [
